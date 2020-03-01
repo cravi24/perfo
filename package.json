@@ -1,6 +1,6 @@
 {
   "name": "@cravi24/perfo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Enables performance testing for functions/services",
   "main": "dist/index.js",
   "repository": {

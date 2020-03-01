@@ -114,6 +114,7 @@ const reset = () => {
   bytes = 0;
   totalLatency = 0;
   maxLatency = 0;
+  throttler.resetThrottleCount();
 };
 
 const logMetricsIfDone = () => {

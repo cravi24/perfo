@@ -52,9 +52,13 @@ const throttle = async (currentExecutionIndex) => {
 };
 
 const getThrottleCount = () => throttleCount;
+const resetThrottleCount = () => {
+  throttleCount = 0;
+};
 
 module.exports = {
   init,
   throttle,
   getThrottleCount,
+  resetThrottleCount,
 };
