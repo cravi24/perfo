@@ -1,8 +1,8 @@
 {
   "name": "@cravi24/perfo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Enables performance testing for functions/services",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:cravi24/perfo.git"
@@ -32,5 +32,11 @@
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
     "prettier": "^1.19.1"
-  }
+  },
+  "files": [
+    "README.md",
+    "dist",
+    "package.json",
+    "package-lock.json"
+  ]
 }
