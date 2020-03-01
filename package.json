@@ -1,0 +1,36 @@
+{
+  "name": "@cravi24/perfo",
+  "version": "0.0.1",
+  "description": "Enables performance testing for functions/services",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cravi24/perfo.git"
+  },
+  "scripts": {
+    "build": "npm run lint && babel ./src --out-dir dist/ --source-maps",
+    "start": "npm run build && node ./example/e2e-test.js",
+    "lint": "eslint  --fix --ignore-path .eslintignore ."
+  },
+  "keywords": [
+    "performace",
+    "test",
+    "throughput",
+    "load"
+  ],
+  "author": "Ravi Chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "nano-time": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "prettier": "^1.19.1"
+  }
+}

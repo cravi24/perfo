@@ -1,0 +1,7 @@
+**/node_modules/
+**/dist/
+**/fortify/
+**/vendor/
+**/support/
+**/performance/
+**/example
